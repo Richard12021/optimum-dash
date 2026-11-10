@@ -1,0 +1,48 @@
+
+/* OPTIMUM DASH — GLOBAL STYLES */
+
+:root {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background: #05030d;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid #c084fc;
+  outline-offset: 3px;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: #7c3aed;
+  color: #ffffff;
+}
